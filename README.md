@@ -1,24 +1,5 @@
 # std1
 
-Full feature list
-Full feature list
-Multi Login
-Student Management.
-Teacher Management.
-Attendance Management
-Salary Management
-Payment Management
-Timetable Management
-Exam Management
-Petty Cash Management 
-Event Management
-Notification Management
-Online Chat
-Classroom Management
-Grade Management
-Subject Management
-Invoice Management
-
 Requirements
 PHP 5.5
 MYSQL 4.6
