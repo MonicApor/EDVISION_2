@@ -29,7 +29,8 @@ user name:- dad1@gmail.com, dad2@gmail.com, dad3@gmail.com
 password:- 12345
 
 
-Features of Complete Web-Based School Management System
+Features:
+
 Multi Login
 Student Management.
 Teacher Management.
