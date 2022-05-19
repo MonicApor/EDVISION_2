@@ -105,7 +105,7 @@ body.modal-open-noscroll1
     <section class="content">
     	<div class="row">
             <div class="col-md-5"><!-- left column -->
-              	<div class="box box-primary"><!-- general form elements -->
+              	<div class="box box-success"><!-- general form elements -->
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Add Exam Timetable</h3>
                 	</div><!-- /.box-header -->
@@ -142,7 +142,7 @@ if(mysqli_num_rows($result) > 0){
                      	</div>
                   	</div><!-- /.box-body -->
                   	<div class="box-footer">
-                    	<button type="button" class="btn btn-primary"  onClick="showExamTimetable(this)">Next</button><!--MSK-000108-->
+                    	<button type="button" class="btn btn-success"  onClick="showExamTimetable(this)">Next</button><!--MSK-000108-->
                   	</div>
             	</div><!-- /.box -->
         	</div>

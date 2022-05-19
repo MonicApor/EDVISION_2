@@ -170,7 +170,7 @@ if(mysqli_num_rows($result) > 0) {
     	<div class="container modal-content1 "><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-3">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Add Exam Routing</h3>
@@ -243,7 +243,7 @@ if(mysqli_num_rows($result) > 0){
                             	</div>        
             				</div><!--/.modal body-->
             
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-green-active">
             					<input type="hidden" name="do" value="add_exam_routing"  />
                     			<button type="submit" onClick="" class="btn btn-info btnS" id="btnSubmit" style="width:100%;">Submit</button>
              				</div>

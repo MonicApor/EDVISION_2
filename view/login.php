@@ -31,16 +31,16 @@ body{
 
 </style>
 <body onLoad="login()">
-	<img src="../uploads/bg.jpg" class="bg" />
+	<img src="../uploads/bg1.png" class="bg" />
 	
 	<!--Success! - Insert-->
   	<div class="modal fade" id="loginFrom" tabindex="-1" role="dialog" aria-labelledby="loginFrom" aria-hidden="true">
     	<div class="modal-dialog">    
         	<div class="modal-content ">
-        		<div class="modal-header bg-aqua-gradient">
-          			<h4>User Login...!</h4>
+        		<div class="modal-header bg-lime">
+          			<h4>Login to Edvision!</h4>
         		</div>
-        		<div class="modal-body bgColorWhite">
+        		<div class="modal-body bg-white">
         			<form role="form" action="../index.php" method="post">                    
                   		<div class="box-body">
                     		<div class="form-group" id="divEmail">
@@ -54,7 +54,7 @@ body{
                   		</div><!-- /.box-body -->
                   		<div class="box-footer">
                   			<input type="hidden" name="do" value="user_login" />
-                    		<button type="submit" class="btn btn-info" id="btnSubmit">Submit</button>
+                    		<button type="submit" class="btn btn-success" id="btnSubmit">Submit</button>
                   		</div>
                 	</form>
         		</div>

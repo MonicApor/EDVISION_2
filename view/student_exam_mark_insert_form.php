@@ -11,7 +11,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     	<div class="container msk-modal-content"><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-3">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Add Exam Marks</h3>
@@ -46,11 +46,11 @@ if(mysqli_num_rows($result) > 0){
                                    
             				</div><!--/.modal body-->
             
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-green-active">
                             	<input type="hidden" name="current_page" value="<?php echo $current_page; ?>"/>
                             	<input type="hidden" name="index" value="<?php echo $index_number; ?>"/>
             					<input type="hidden" name="do" value="add_student_exam_mark"/>
-                    			<button type="submit" class="btn btn-info btnS" id="btnSubmit3" style="width:100%;">Submit</button>
+                    			<button type="submit" class="btn btn-success btnS" id="btnSubmit3" style="width:100%;">Submit</button>
              				</div>
              			</form>      
       				</div><!--/.panel-->

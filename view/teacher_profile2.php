@@ -61,7 +61,7 @@ $image=$row['image_name'];
     	<div class="row">
         	<div class="col-md-7">
             	<div class="panel"><!--panel bg-maroon--> 
-                	<div class="panel-heading bg-aqua-active">	
+                	<div class="panel-heading bg-green-active">	
                     	<h4 class="panel-title" id="hname"><?php echo $i_name; ?></h4>
                     </div>				
                     <div class="panel-body"><!--panel-body -->
@@ -100,7 +100,7 @@ $image=$row['image_name'];
                   				</table>
                   			</div>
                    		</div>
-                         <p class="alert-info" id="note1"><strong>Note: We get the email address for the user name.</strong></p>
+                         <p class="alert-success" id="note1"><strong>Note: We get the email address for the user name.</strong></p>
                      </div>
                      <div class="panel-footer text-right" id="panel_footer">
                     	<a href="#" onClick="editMyProfile('<?php echo $index; ?>')" type="button" class="btn btn-sm btn-warning" id="btnEdit"><i class="glyphicon glyphicon-edit"></i></a><!--MSK-00151-->

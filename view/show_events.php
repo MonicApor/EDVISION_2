@@ -61,7 +61,7 @@ $row=mysqli_fetch_assoc($result);
 		<div class="container col-lg-6 modal-content1"><!--modal-content --> 
       		<div class="row">
           		<div class="panel"><!--panel --> 
-            		<div class="panel-heading bg-orange">
+            		<div class="panel-heading bg-success">
                     	<button type="button"  class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
               			<h3 class="panel-title"><?php echo $row['title']; ?></h3>
             		</div>

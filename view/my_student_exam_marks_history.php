@@ -107,7 +107,7 @@ body.modal-open-noscroll1
     <section class="content">
     	<div class="row">
             <div class="col-md-5"><!-- left column -->
-              	<div class="box box-primary"><!-- general form elements -->
+              	<div class="box box-success"><!-- general form elements -->
                 	<div class="box-header with-border">
                   		<h3 class="box-title">My Student Exam Marks History</h3>
                 	</div><!-- /.box-header -->
@@ -187,7 +187,7 @@ if(mysqli_num_rows($result) > 0){
                   	</div><!-- /.box-body -->
                   	<div class="box-footer">
 	                  	<input type="hidden" id="my_index" value="<?php echo $my_index; ?>">
-                    	<button type="button" id="btnSubmit" class="btn btn-primary"  onClick="showMyStudent(this)">Submit</button><!--MSK-000108-->
+                    	<button type="button" id="btnSubmit" class="btn btn-success"  onClick="showMyStudent(this)">Submit</button><!--MSK-000108-->
                   	</div>
             	</div><!-- /.box -->
         	</div>

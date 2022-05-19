@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
    <!-- DataTables -->
     <link rel="stylesheet" href="../plugins/datatables/dataTables.bootstrap.css">
-    <link rel="icon" href="../uploads/logo3.png">
+    <link rel="icon" href="../uploads/school-logo.png">
     
     <!-- jQuery 2.1.4 --> 
     <script src="../plugins/jQuery/jQuery-2.1.4.min.js"></script>

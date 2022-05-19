@@ -11,7 +11,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     	<div class="container msk-modal-content"><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-4">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Edit Exam Marks</h3>
@@ -57,11 +57,11 @@ $sql="select subject.name as s_name,subject.id as s_id,student_exam.marks as std
                                     </table>
                             	</div> 
             				</div><!--/.modal body-->
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-green-active">
                             	<input type="hidden" name="current_page" value="<?php echo $current_page; ?>"/>
                             	<input type="hidden" name="std_index" value="<?php echo $std_index; ?>"/>
             					<input type="hidden" name="do" value="update_student_exam_mark2"/>
-                    			<button type="submit" class="btn btn-info btnS" id="btnSubmit3" style="width:100%;">Update</button>
+                    			<button type="submit" class="btn btn-success btnS" id="btnSubmit3" style="width:100%;">Update</button>
              				</div>
              			</form>      
       				</div><!--/.panel-->

@@ -50,9 +50,6 @@ if(mysqli_num_rows($result) > 0){
 <a href="#" class="btn btn-success btn-xs" onClick="editSubject(this)"  data-id="<?php echo $row["std_index"]; ?>" >Edit Subject</a>
 <a href="#" class="confirm-upgrade btn btn-danger btn-xs"  data-id="<?php echo $row["std_index"]; ?>" >Upgrade Grade</a>  
 
-<!--MSK-00146 --> 
-<a href="#" onClick="showModal2(this)" class="btn btn-success btn-xs"  data-id="<?php echo $row["std_index"]; ?>">Add Payment</a>
-<a href="#" onClick="viewPayments(this)" class="btn btn-info btn-xs"  data-id="<?php echo $row["std_index"]; ?>">View Payments</a>
                        </td>
                     </tr>
 <?php } } ?>

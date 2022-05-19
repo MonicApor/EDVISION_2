@@ -5,6 +5,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     exit;
 }
 ?>
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <div class="col-md-10">
 	<div class="box">
     	<div class="box-header">

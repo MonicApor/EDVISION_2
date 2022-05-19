@@ -85,7 +85,7 @@ $password=$row1['password'];
     	<div class="row">
         	<div class="col-md-8">
             	<div class="panel">
-                	<div class="panel-heading bg-aqua-active">	
+                	<div class="panel-heading bg-green-active">	
                     	<h4 class="panel-title" id="hname"><?php echo $i_name; ?></h4>
                     </div>				
                     <div class="panel-body"><!--panel-body -->

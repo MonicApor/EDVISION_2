@@ -11,7 +11,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
       		<div class="row ">	
            		<div class="col-md-3">
             		<div class="panel">
-        				<div class="panel-heading bg-orange">               
+        				<div class="panel-heading bg-success">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Update Exam Timetable </h3>
    						</div>
@@ -76,13 +76,13 @@ if(mysqli_num_rows($result) > 0){
         							<input type="text" class="form-control" id="end_time1" name="end_time" placeholder="Enter end time" autocomplete="off"/>
         						</div>  
             				</div><!--/.modal body-->
-            				<div class="panel-footer bg-gray-light">
+            				<div class="panel-footer bg-green-light">
                             	<input type="hidden" name="grade" value="<?php echo $grade_id; ?>"  />
                                 <input type="hidden" name="exam" value="<?php echo $exam_id; ?>"  />
                             	<input type="hidden" id="id1" name="id" value=""  />
             					<input type="hidden" name="do" value="update_exam_timetable"  />
                                 <input type="hidden" name="create_by" value="Admin"  />
-                    			<button type="submit" class="btn btn-info" id="btnSubmit1" style="width:100%;">Update</button><!--MSK-000145-->
+                    			<button type="submit" class="btn btn-success" id="btnSubmit1" style="width:100%;">Update</button><!--MSK-000145-->
              				</div><!--/.panel-footer-->
              			</form>       
       				</div><!--/.panel-->

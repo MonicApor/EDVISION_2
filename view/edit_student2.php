@@ -261,7 +261,7 @@ $row1=mysqli_fetch_assoc($result1);
     <section class="content">
     	<div class="row">
             <div class="col-md-12">
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Edit Student</h3>
                         <a href="my_student.php?do=showSTable&grade_id=<?php echo $grade_id; ?>" style="float:right" type="button" class="btn text-right btn-success asd" id="btnSubmit2"><span class="glyphicon glyphicon-arrow-left"></span> Back</a>
@@ -270,7 +270,7 @@ $row1=mysqli_fetch_assoc($result1);
                 		<div class="box-body" >
                         	<div class="row">
                         		<div class="col-md-6">
-                                	<p class="alert-warning ">Student Details </p>
+                                	<p class="alert-success ">Student Details </p>
                                      <div class="form-group" id="divFullName">
                                         <div class="col-xs-3">
                                             <label for="exampleInputEmail1">Full Name</label>
@@ -349,7 +349,7 @@ $row1=mysqli_fetch_assoc($result1);
                                     </div>                
                             	</div>
                                 <div class="col-md-6">
-                                	<p class="alert-warning "> Guardian Details </p>
+                                	<p class="alert-success "> Guardian Details </p>
                                      <div class="form-group" id="divGFullName">
                                         <div class="col-xs-3">
                                             <label for="exampleInputEmail1">Full Name</label>
@@ -434,7 +434,7 @@ $row1=mysqli_fetch_assoc($result1);
                             <input type="hidden" name="std_index" value="<?php echo $std_index; ?>">
                              <input type="hidden" name="grade_id" value="<?php echo $grade_id; ?>">
                              <input type="hidden" name="showPage" value="my_student">
-                    		<button style="width:150px;" type="submit" class="btn text-right btn-warning asd" id="btnSubmit">Update</button><br>
+                    		<button style="width:150px;" type="submit" class="btn text-right btn-success asd" id="btnSubmit">Update</button><br>
                              
 <?php
 /*

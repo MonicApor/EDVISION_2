@@ -11,8 +11,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     	<div class="container modal-content1 "><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-3 ">
-            		<div class="panel panel-primary">
-        				<div class="panel-heading">               
+            		<div class="panel ">
+        				<div class="panel-heading bg-success">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Add Subject Routing </h3>
    						</div>
@@ -88,11 +88,11 @@ if(mysqli_num_rows($result) > 0){
         							<input type="text" class="form-control" id="end_time" name="end_time"  placeholder="Enter end time" autocomplete="off"/>
         						</div>  
             				</div><!--/.modal body-->
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-green-active">
                             	<input type="hidden"  name="teacher_id" value="<?php echo $id; ?>"  />
             					<input type="hidden" name="do" value="add_timetable"  />
                                 <input type="hidden" name="do2" value="add_timetable2"  />
-                    			<button type="submit" class="btn btn-info " id="btnSubmit" style="width:100%;">Submit</button><!--MSK-000125-->
+                    			<button type="submit" class="btn btn-success " id="btnSubmit" style="width:100%;">Submit</button><!--MSK-000125-->
              				</div><!--/.panel-footer-->
              			</form>       
       				</div><!--/.panel-->

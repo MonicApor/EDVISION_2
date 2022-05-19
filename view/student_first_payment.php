@@ -49,18 +49,18 @@ include_once("../controller/config.php");
                         	<div class="row " id="msk12345">
                             	<div class="col-xs-2">
                                 	<div class="div-logo">
-                                    	<img class="logo" src="../uploads/logo2.png">
+                                    	<img class="logo" src="../uploads/school-logo.png">
                                     </div>
                                 </div>
                                 <div class="col-xs-5 class-name">
-                                	<h2>ILovePrograming</h2>
+                                	<h2>Edvision</h2>
                                 	<div class="class-address">
-                                    	455 Foggy Heights,<br>
-									    AZ 85004, US
+                                    	USC Talamban Campus<br>
+									    Nasipit, Cebu City
                                     </div>
                                 </div>
                                 <div class="col-xs-4 class-email text-right ">
-                                    	Email: msk.ms4@gmail.com<br>
+                                    	Email: admission@usc.edu.ph<br>
                                         Phone: 111-111-1111 <br> 
                                 </div>
                         	</div>
@@ -77,8 +77,8 @@ while($row=mysqli_fetch_assoc($result)){
 
 ?>                                    
                                   <span class="std-name"><?php echo $row['i_name']; ?></span><br>
-                                    	455 Foggy Heights,<br>
-									    AZ 85004, US
+                                    	USC Talamban<br>
+									    Nasipit, Cebu City
 <?php } ?>                                        
                                     </div>
                                 </div>
@@ -93,9 +93,9 @@ $inv_number=$id2+1;
 ?>                                    
                                 	<h3>INVOICE - #<?php echo $inv_number; ?></h3>
                                     <div class="text-right">
-                                    	Year: 2017<br>
-                                    	Month: June<br>
-                                    	Date: 12/06/2017
+                                    	Year: 2022<br>
+                                    	Month: May<br>
+                                    	Date: 5/30/2022
                                     </div>                                
                                 </div>
       						</div> <!-- / end client details section -->
@@ -186,9 +186,7 @@ $total = number_format($total, 2, '.', '');
                                 <input type="hidden" id="index" value="<?php echo $index; ?>"  />
                                 <input type="hidden" id="a_fee" value="<?php echo $a_fee; ?>"  />
                                 <input type="hidden" id="total_sfee" value="<?php echo $monthly_fee; ?>"  />
-                    			<button type="button" class="btn btn-primary btn-md"  id="btnSubmit1" onClick="addSPayment(this)">
-                                	<small><span class="glyphicon glyphicon-usd"></span></small>Paid<!--MSK-000138-->
-                                </button>
+                    			
              			</div>                    
                 	</div><!--/. panel--> 
                 </div><!--/.row --> 

@@ -112,7 +112,7 @@ body.modal-open-noscroll1
         	<!-- left column -->
             <div class="col-md-5">
             	<!-- general form elements -->
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">My Son's Exam Timetable</h3>
                 	</div><!-- /.box-header -->
@@ -155,7 +155,7 @@ if(mysqli_num_rows($result) > 0){
                   	<div class="box-footer">
                     	<input type="hidden" id="index" value="<?php echo $my_son_index; ?>">
                     	<input type="hidden" id="grade" value="<?php echo $id; ?>">
-                    	<button type="button" class="btn btn-primary"  onClick="showExamTimetable(this)">Submit</button><!--MSK-000108-->
+                    	<button type="button" class="btn btn-success"  onClick="showExamTimetable(this)">Submit</button><!--MSK-000108-->
                   	</div>
             	</div><!-- /.box -->
         	</div>

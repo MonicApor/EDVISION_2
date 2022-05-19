@@ -56,7 +56,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
                 </table>
             </div>  
 		</div>
-         <p class="alert-info"><strong>Note: We get the email address for the user name.</strong></p>
+         <p class="alert-success"><strong>Note: We get the email address for the user name.</strong></p>
 	</div><!--panel-body -->  
     <div class="panel-footer text-right">
         <input type="hidden" id="id1" name="id" value="">

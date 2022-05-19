@@ -89,7 +89,7 @@ body {
 	margin-right: 10px;
 	border-radius: 50%;
 	text-align: center;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV .class-name{
@@ -114,15 +114,15 @@ body {
 	margin-right:15px;
 	padding-right:0;
 	color:white;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV th{			
-	background-color:#8860a7;
+	background-color:#2E8B57;
 	color:white;
 }
 #modalINV .std-name{
-	color:#8860a7;
+	color:#2E8B57;
 	font-size:16px;
 }
 #modalINV #h1{
@@ -156,23 +156,23 @@ display:none;
 }
 	
 #modalINV .logo{
-		background-color:#8860a7 !important;	
+		background-color:#2E8B57 !important;	
 	}
 
 #modalINV h1,#modalINV h2,#modalINV h3,#modalINV .std-name{
-		color:#8860a7 !important;	
+		color:#2E8B57 !important;	
 	}
 	
 	
 #modalINV .table-bordered th{
 			
 		color:white!important;
-		background-color:#8860a7 !important;		
+		background-color:#2E8B57 !important;		
 				
 	}
 #modalINV .class-email {
 		color:white!important;
-		background-color:#8860a7 !important;
+		background-color:#2E8B57 !important;
 		
 } 
 
@@ -279,7 +279,7 @@ if(mysqli_num_rows($result) > 0){
 	<div class="modal msk-fade " id="activeConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -289,7 +289,7 @@ if(mysqli_num_rows($result) > 0){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000132 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>
@@ -361,7 +361,7 @@ $('#btnYes').click(function() {
 		<div class="modal-dialog"><!--modal-dialog -->  
 			<div class="container col-lg-6 msk-modal-content"><!--modal-content --> 
       			<div class="row">
-          			<div class="panel panel-primary "><!--panel --> 
+          			<div class="panel panel-success "><!--panel --> 
             			<div class="panel-heading ">
               				<h3 class="panel-title">Select Grade</h3>
             			</div>
@@ -580,7 +580,7 @@ function activeAlert(msg){
 	<div class="modal-dialog"><!--modal-dialog -->  
 		<div class="container col-lg-12 "><!--modal-content --> 
       		<div class="row">
-          		<div class="panel panel-info"><!--panel --> 
+          		<div class="panel panel-success"><!--panel --> 
             		<div class="panel-heading">
                     	<button type="button"  class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
               			<h3 class="panel-title" id="std_name2"></h3>
@@ -638,8 +638,8 @@ function activeAlert(msg){
                   			</div>
                    		</div>
                   	</div><!--/.panel-body -->
-                	<div class="panel-footer bg-gray-light">
-                    	<a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-envelope"></i></a>
+                	<div class="panel-footer bg-green-light">
+                    	<a data-original-title="Broadcast Message" data-toggle="tooltip" type="button" class="btn btn-sm btn-success"><i class="glyphicon glyphicon-envelope"></i></a>
                         <span class="pull-right">
                             <a href="#" id="active" type="button" class="confirm-active btn btn-sm btn-success"><i class="glyphicon glyphicon-user"></i></a><!--MSK-00151-->
                         </span>

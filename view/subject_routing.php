@@ -171,7 +171,7 @@ if($current_date_number > 5){
     	<div class="container modal-content1 "><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-3 ">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Add Subject Routing</h3>
@@ -240,9 +240,9 @@ if(mysqli_num_rows($result) > 0){
                
             				</div><!--/.modal body-->
             
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-green-active">
             					<input type="hidden" name="do" value="add_subject_routing"  />
-                    			<button type="submit" class="btn btn-info " id="btnSubmit" style="width:100%;">Submit</button>
+                    			<button type="submit" class="btn btn-success " id="btnSubmit" style="width:100%;">Submit</button>
              				</div>
              			</form>       
       				</div><!--/.panel-->
@@ -414,7 +414,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="alert_from_insert")){
                 <div class="row">	
                     <div class="col-md-3 ">
                         <div class="panel">
-                            <div class="panel-heading bg-orange">               
+                            <div class="panel-heading bg-success">               
         						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           						<h3 class="panel-title">Edit Subject Routing</h3>
    							</div>
@@ -470,7 +470,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="alert_from_insert")){
                             </div><!--/.modal body-->
                             <div class="panel-footer bg-gray-light">
                             	<input type="hidden" id="count1" value="">
-                                <button type="button" class="btn btn-info" id="btnSubmit1" onClick="UpdateSubjectFee(this)" style="width:100%;"><span class="glyphicon glyphicon-ok-sign"></span>Update</button><!--MSK-000108-->
+                                <button type="button" class="btn btn-success" id="btnSubmit1" onClick="UpdateSubjectFee(this)" style="width:100%;"><span class="glyphicon glyphicon-ok-sign"></span>Update</button><!--MSK-000108-->
                             </div><!--/.panel-footer-->
                         </div><!--/.panel-->
                     </div><!--/.col-md-3 --> 
@@ -732,7 +732,7 @@ function updateSubjectFee(updateSFee){
 	<div class="modal msk-fade" id="deleteConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -742,7 +742,7 @@ function updateSubjectFee(updateSFee){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000125 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>

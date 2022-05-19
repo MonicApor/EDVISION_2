@@ -592,7 +592,7 @@ function get_calendar(day_no,days){
     	<div class="container msk-modal-content"><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-6">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onClick="cboxUncheck()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Edit Event</h3>
@@ -690,11 +690,11 @@ if(mysqli_num_rows($result) > 0){
                             		<br><br><br>
                             	</div> 
             				</div><!--/.modal body-->
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-lime-active">
                             	<input type="hidden" name="my_type" id="my_type_update" value="">
                             	<input type="hidden" name="event_id" id="id_update" value=""/>
             					<input type="hidden" name="do" value="update_events"/>
-                    			<button type="submit" class="btn btn-info btnS" id="btnSubmit4" style="width:100%;">Update</button>
+                    			<button type="submit" class="btn btn-success btnS" id="btnSubmit4" style="width:100%;">Update</button>
              				</div>
              			</form>      
       				</div><!--/.panel-->

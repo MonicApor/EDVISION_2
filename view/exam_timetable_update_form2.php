@@ -11,7 +11,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
       		<div class="row ">	
            		<div class="col-md-3">
             		<div class="panel">
-        				<div class="panel-heading bg-orange">               
+        				<div class="panel-heading bg-success">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Update Exam Timetable </h3>
    						</div>
@@ -82,7 +82,7 @@ if(mysqli_num_rows($result) > 0){
                             	<input type="hidden" id="id1" name="id" value=""  />
             					<input type="hidden" name="do" value="update_exam_timetable"  />
                                 <input type="hidden" name="create_by" value="Teacher"  />
-                    			<button type="submit" class="btn btn-info" id="btnSubmit1" style="width:100%;">Update</button><!--MSK-000145-->
+                    			<button type="submit" class="btn btn-success" id="btnSubmit1" style="width:100%;">Update</button><!--MSK-000145-->
              				</div><!--/.panel-footer-->
              			</form>       
       				</div><!--/.panel-->

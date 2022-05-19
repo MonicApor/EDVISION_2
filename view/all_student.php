@@ -241,7 +241,7 @@ body {
 	margin-right: 10px;
 	border-radius: 50%;
 	text-align: center;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV1 .class-name{
@@ -252,7 +252,7 @@ body {
 
 #modalINV1 h1,#modalINV1 h2,#modalINV1 h3{
 	margin-top:0;
-	color:#8860a7;
+	color:#2E8B57;
 
 }
 
@@ -266,11 +266,11 @@ body {
 	margin-right:15px;
 	padding-right:0;
 	color:white;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV1 th{			
-	background-color:#8860a7;
+	background-color:#2E8B57;
 	color:white;
 }
 #modalINV1 .std-name{
@@ -285,23 +285,23 @@ display:none;
 @media print{
 
 #modalINV1 .logo{
-		background-color:#8860a7 !important;	
+		background-color:#2E8B57 !important;	
 	}
 
 #modalINV1 h1,#modalINV1 h2,#modalINV1 h3,#modalINV1 .std-name{
-		color:#8860a7 !important;	
+		color:#2E8B57 !important;	
 	}
 	
 	
 #modalINV1 .table-bordered th{
 			
 		color:white!important;
-		background-color:#8860a7 !important;		
+		background-color:#2E8B57 !important;		
 				
 	}
 #modalINV1 .class-email {
 		color:white!important;
-		background-color:#8860a7 !important;
+		background-color:#2E8B57 !important;
 		
 } 
 	
@@ -390,7 +390,7 @@ display:none;
 	margin-right: 10px;
 	border-radius: 50%;
 	text-align: center;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV .class-name{
@@ -401,7 +401,7 @@ display:none;
 
 #modalINV h1,#modalINV h2,#modalINV h3{
 	margin-top:0;
-	color:#8860a7;
+	color:#2E8B57;
 
 }
 
@@ -415,15 +415,15 @@ display:none;
 	margin-right:15px;
 	padding-right:0;
 	color:white;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV th{			
-	background-color:#8860a7;
+	background-color:#2E8B57;
 	color:white;
 }
 #modalINV .std-name{
-	color:#8860a7;
+	color:#2E8B57;
 	font-size:16px;
 }
 #modalINV #h1{
@@ -433,23 +433,23 @@ display:none;
 @media print{
 
 #modalINV .logo{
-		background-color:#8860a7 !important;	
+		background-color:#2E8B57 !important;	
 	}
 
 #modalINV h1,#modalINV h2,#modalINV h3,#modalINV .std-name{
-		color:#8860a7 !important;	
+		color:#2E8B57 !important;	
 	}
 	
 	
 #modalINV .table-bordered th{
 			
 		color:white!important;
-		background-color:#8860a7 !important;		
+		background-color:#2E8B57 !important;		
 				
 	}
 #modalINV .class-email {
 		color:white!important;
-		background-color:#8860a7 !important;
+		background-color:#2E8B57 !important;
 		
 } 
 	
@@ -509,7 +509,7 @@ display:none;
     <section class="content">
     	<div class="row">
             <div class="col-xs-6"><!-- left column -->
-              	<div class="box box-primary"><!-- general form elements -->
+              	<div class="box box-success"><!-- general form elements -->
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Select Grade</h3>
                 	</div><!-- /.box-header -->
@@ -536,7 +536,7 @@ if(mysqli_num_rows($result) > 0){
                     	</div>
                   	</div><!-- /.box-body -->
                   	<div class="box-footer">
-                    	<button type="button" class="btn btn-primary"  onClick="showStudentTable(this)">Submit</button><!--MSK-000108-->
+                    	<button type="button" class="btn btn-success"  onClick="showStudentTable(this)">Submit</button><!--MSK-000108-->
                   	</div>
               	</div><!-- /.box -->
             </div>
@@ -692,7 +692,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="showSTable")){
 	<div class="modal msk-fade " id="deleteConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -702,7 +702,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="showSTable")){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000132 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>
@@ -943,8 +943,8 @@ function showModal1(Viewform){
 		<div class="modal-dialog"><!--modal-dialog -->  
 			<div class="container col-lg-6 msk-modal-content"><!--modal-content --> 
       			<div class="row">
-          			<div class="panel panel-primary "><!--panel --> 
-            			<div class="panel-heading ">
+          			<div class="panel  "><!--panel --> 
+            			<div class="panel-heading bg-success ">
               				<h3 class="panel-title">Select Grade</h3>
             			</div>
             			<div class="panel-body"><!--panel-body -->
@@ -978,7 +978,7 @@ if(mysqli_num_rows($result) > 0){
 	<div class="modal msk-fade " id="upgradeConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -988,7 +988,7 @@ if(mysqli_num_rows($result) > 0){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes1" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000132 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>
@@ -1102,59 +1102,7 @@ function upgradeGrade(){
 
 }
 
-function addSPayment(){
-	//MSK-000139
-	var index = $("#index").val();
-	var totalSFee = $("#total_sfee").val();
-	var aFee = $("#a_fee").val();
-	var inv_num = $("#inv_num").val(); 
-	
-	var xhttp = new XMLHttpRequest();//MSK-000140-Start Ajax 
-  		xhttp.onreadystatechange = function() {
-			
-    		if (this.readyState == 4 && this.status == 200) {//MSK-000142
-				
-				var myArray = eval( xhttp.responseText );
-				
-				if(myArray[0] == 1){//MSK-000144
-					
-					setTimeout(function() {
-						
-						window.print(); 
-						$('#modalINV').modal('hide');
-						
-						var myModal = $('#insert_Success');
-						myModal.modal('show');//MSK-000145
-						
-						myModal.data('hideInterval', setTimeout(function(){
-							myModal.modal('hide');
-					
-						}, 3000));
-						
-					}, 10);	
-					
-				}
 
-
-				if(myArray[0] == 2){//MSK-000146
-					var myModal = $('#connection_Problem');
-					myModal.modal('show');//MSK-000147
-					
-					myModal.data('hideInterval', setTimeout(function(){
-    					myModal.modal('hide');
-				
-    				}, 3000));
-				
-				}
-				
-    		}
-			
-  		};	
-		
-    	xhttp.open("GET", "../model/add_student_first_payment.php?index=" + index + "&afee="+aFee + "&totalsfee="+totalSFee + "&inv_num="+inv_num , true);												
-  		xhttp.send();//MSK-000140-End Ajax	
-	                                       
-};					
 
 function editSubject(eSubject){
 	var index = $(eSubject).data('id');
@@ -1270,325 +1218,6 @@ function showModalGrade(){
 
 <script>
 
-function showModal2(viewSPayment){
-	
-	var index=$(viewSPayment).data('id');
-	
-	var info = $('#example1').DataTable().page.info();
-	var currentPage= (info.page + 1);
-
-	var xhttp = new XMLHttpRequest();
-  		xhttp.onreadystatechange = function() {
-			
-    		if (this.readyState == 4 && this.status == 200) {
-				
-				document.getElementById('payment_details').innerHTML = this.responseText;
-				$("#modalviewPayment").data('id',index).modal('show');
-				
-				var lastPaid = document.getElementById('lastPaid').innerHTML.replace("$", " ");
-				var dueAmount = document.getElementById('dueAmount').innerHTML.replace("$", " ");
-				var currentPaid = document.getElementById('currentPaid').innerHTML.replace("$", "");
-				
-				if(lastPaid == 0){
-					document.getElementById('lastMonth').innerHTML = "You did not attend on last month..!";
-					document.getElementById('mFee_lMonth').innerHTML = "No Data...!";
-					document.getElementById('lastPaid').innerHTML = "No Data...!";
-				}
-				
-				if(dueAmount == 0){
-					document.getElementById('dueAmount').innerHTML = 0;
-					
-				}
-				
-				if(currentPaid == " "){
-					
-					document.getElementById('currentPaid').innerHTML = 0;
-					
-				}
-				
-				var due = document.getElementById('dueAmount').innerHTML.replace("$", "");
-				
-				if(due == 0){
-					$("#btnPaid").attr("disabled",true);
-					document.getElementById('dueAmount').innerHTML = 0;
-				}
-				var currentPaid = document.getElementById('currentPaid').innerHTML.replace("$", "");
-				
-				if(currentPaid == " "){
-					
-					document.getElementById('currentPaid').innerHTML = 0;
-				}
-				
-				
-    		}
-			
-  		};	
-		
-    	xhttp.open("GET", "student_payment_details.php?index=" + index + "&page="+currentPage , true);												
-  		xhttp.send();
-};
-
-function addPayment(sIndex){
-	
-	var index = $("#index_number").val();
-	var page = $("#cpage").val();
-	
-	var xhttp = new XMLHttpRequest();//MSK-00116-Ajax Start
-  		xhttp.onreadystatechange = function() {
-			
-    		if (this.readyState == 4 && this.status == 200) {
-				
-				document.getElementById('payment_details1').innerHTML = this.responseText;	
-				$("#modalviewPayment").modal('hide');	
-				$("#modalviewPayment1").modal('show');
-				
-				var MFee = $('#tBody td:last').text();
-				$("#type option[value='selectType']").hide();
-				$('#type').val('Monthly Fee');
-				$('#amount').val(MFee);
-				
-				$("#amount").keydown(function(){
-							
-					setTimeout(function() {
-							var amount = $('#amount').val();// this is the value after the keypress
-										
-							if(amount != MFee){
-											
-								$('#spanAmount').remove();
-								$('#divAmount').removeClass('has-success has-feedback');
-								$('#divAmount').addClass('has-error has-feedback');
-								$('#divAmount').append('<span id="spanAmount" class="glyphicon glyphicon-remove form-control-feedback msk-set-width-tooltip" data-toggle="tooltip" title="The amount is not equal to Monthly Fee" ></span>');
-								$("#btnSubmit").attr("disabled", true);
-								
-							}else{
-								$("#btnSubmit").attr("disabled", false);
-								$('#divAmount').removeClass('has-error has-feedback');
-								$('#spanAmount').remove();
-								$('#divAmount').addClass('has-success has-feedback');
-								$('#divAmount').append('<span id="spanAmount" class="glyphicon glyphicon-ok form-control-feedback"></span>');
-							
-							}
-							
-						}, 0);		
-					});
-					
-					
-				}
-							
-			
-  		};	
-		
-    	xhttp.open("GET", "student_payment_details2.php?index=" + index + "&page="+page , true);//MSK-00116-Ajax End											
-  		xhttp.send();
-	
-};
-</script>
-
-	<div id="show_INV">
-        
-    </div>
-	
-<script>
-
-function printINV(index,invoice_number,desc,monthly_fee,paid){
-	
-	var xhttp = new XMLHttpRequest();//MSK-00149-Start Ajax  
-  		xhttp.onreadystatechange = function() {
-    		if (this.readyState == 4 && this.status == 200) {
-				//MSK-00150
-				document.getElementById('show_INV').innerHTML = this.responseText;
-				$('#modalINV').modal('show');
-				
-				setTimeout(function() {
-						
-					window.print(); 
-					$('#modalINV').modal('hide');
-						
-					var myModal = $('#insert_Success');
-					myModal.modal('show');//MSK-000145
-						
-					myModal.data('hideInterval', setTimeout(function(){
-						myModal.modal('hide');
-					
-					}, 3000));
-						
-				}, 10);
-    		}
-			
-  		};	
-		
-    xhttp.open("GET", "student_payment_invoice.php?index=" + index + "&invoice_number="+invoice_number + "&desc="+desc + "&monthly_fee="+monthly_fee + "&paid="+paid, true);												
-  	xhttp.send();//MSK-00149--End Ajax
-}
-
-</script>
-
-	<!-- table for view all records -->
-    <section class="content" id="tSalaryhistory"> <!-- Start of table section -->
-    	<div class="row" id="table2"><!--MSK-000112--> 
-           
-        </div>
-    </section> <!-- End of table section -->
-    
-    <div id="paymentDetails">
-    
-    </div>
-    
-    <div id="viewInvoice">
-    
-    </div>
-
-
-<script>
-function viewPayments(paymentHistory){
-	
-	var index = $(paymentHistory).data('id');
-	
-	var xhttp = new XMLHttpRequest();//MSK-00105-Ajax Start  
-  		xhttp.onreadystatechange = function() {
-    		
-			if (this.readyState == 4 && this.status == 200) {
-				
-				document.getElementById('table2').innerHTML = this.responseText;//MSK-000137
-				
-				var td_status = document.getElementById('td_status_1').innerHTML;
-				
-				if(td_status == "Admission Fee"){
-					$("#aView_details_1").remove();
-					$("#aView_invoice_1").remove();
-				}
-				
-				$(function () {
-					$("#example2").DataTable();
-				});		
-				window.scrollTo(0,document.body.scrollHeight);	
-    		}
-			
-  		};	
-		
-    	xhttp.open("GET", "student_payment_history.php?index=" + index , true);												
-  		xhttp.send();//MSK-00105-Ajax End
-	
-};
-
-function showModal3(paymentD){
-//MSK-00104
-	
-	var myArray = $(paymentD).data("id").split(',');
-	
-	var index = myArray[0];
-	var year = myArray[1];
-	var month = myArray[2];
-	
-	var xhttp = new XMLHttpRequest();//MSK-00105-Ajax Start  
-  		xhttp.onreadystatechange = function() {
-    		
-			if (this.readyState == 4 && this.status == 200) {
-				
-				document.getElementById('paymentDetails').innerHTML = this.responseText;//MSK-000137
-				$('#modalviewPayment1').modal('show');			
-    		}
-			
-  		};	
-		
-    	xhttp.open("GET", "student_payment_details3.php?index=" + index + "&year="+year + "&month="+month , true);												
-  		xhttp.send();//MSK-00105-Ajax End
-	 
-};
-
-function showModal4(viewINV){
-//MSK-00104
-	
-	var myArray = $(viewINV).data("id").split(','); 
-	
-	var index = myArray[0];
-	var desc = myArray[1];
-	var mFee = myArray[2];
-	var year = myArray[3];
-	var month = myArray[4];
-	var date = myArray[5];
-	
-	
-	var xhttp = new XMLHttpRequest();//MSK-00105-Ajax Start  
-  		xhttp.onreadystatechange = function() {
-    		
-			if (this.readyState == 4 && this.status == 200) {
-				
-				document.getElementById('viewInvoice').innerHTML = this.responseText;//MSK-000137
-				$('#modalINV1').modal('show');	
-				
-				if(desc == "Monthly Fee1"){
-					
-					$("#td_monthly_fee_count").html('2');
-					$("#td_monthly_fee_desc").html('Monthly Fee');
-					
-				}else{
-					
-					$("#tr_adm_fee").remove();
-					$("#spanaFee").remove();
-					$("#spanaFee1").remove();
-					
-				}
-				
-					
-    		}
-			
-  		};	
-		
-    	xhttp.open("GET", "student_payment_invoice1.php?index=" + index + "&desc="+desc + "&paid="+mFee + "&year="+year  + "&month="+month  + "&date="+date   , true);												
-  		xhttp.send();//MSK-00105-Ajax End
-	 
-};
-
-function scrollDown(){
-	
-	window.scrollTo(0,document.body.scrollHeight);
-}
-
-</script>
-
-<!--run Salary insert alert using PHP & JS/JQUERY  -->    
-<?php
-// MSK-000143-24-PHP-JS-UPDATE
-if(isset($_GET["do"])&&($_GET["do"]=="alert_from_payment_insert")){
-  
-$msg=$_GET['msg'];
-$page=$_GET['page'];
-$index=$_GET['index'];
-$invoice_number=$_GET['invoice_number'];
-$desc=$_GET['desc'];
-$monthly_fee=$_GET['monthly_fee'];
-$paid=$_GET['paid'];
-$grade=$_GET['grade'];
-
-
-	if($msg==1){
-		
-		echo '<script>','CPageGrade('.$grade.','.$page.');','</script>';
-		echo '<script>','printINV('.$index.','.$invoice_number.','.$desc.','.$monthly_fee.','.$paid.');','</script>';
-		 
-	}
-	
-	if($msg==2){
-		
-		echo '<script>','CPageGrade('.$grade.','.$page.');','</script>';
-		echo"
-				<script>
-				
-				var myModal = $('#connection_Problem');
-				myModal.modal('show');
-				
-				myModal.data('hideInterval', setTimeout(function(){
-					myModal.modal('hide');
-				}, 3000));
-							
-				</script>
-			";
-		 
-	}
-}
-
-?>
 
 <!--redirect your own url when clicking browser back button -->
 <script>

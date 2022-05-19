@@ -661,7 +661,7 @@ function get_calendar(day_no,days){
     	<div class="container msk-modal-content"><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-6">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onClick="cboxUncheck()"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           					<h3 class="panel-title">Edit Event</h3>
@@ -751,11 +751,11 @@ if(mysqli_num_rows($result) > 0){
                             		<br><br><br>
                             	</div> 
             				</div><!--/.modal body-->
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-green-active">
                             	<input type="hidden" name="my_type" id="my_type_update" value="">
                             	<input type="hidden" name="event_id" id="id_update" value=""/>
             					<input type="hidden" name="do" value="update_events"/>
-                    			<button type="submit" class="btn btn-info btnS" id="btnSubmit1" style="width:100%;">Update</button>
+                    			<button type="submit" class="btn btn-success btnS" id="btnSubmit1" style="width:100%;">Update</button>
              				</div>
              			</form>      
       				</div><!--/.panel-->
@@ -981,7 +981,7 @@ function cboxUncheck(){
 	<div class="modal msk-fade " id="deleteConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -991,7 +991,7 @@ function cboxUncheck(){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000132 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>

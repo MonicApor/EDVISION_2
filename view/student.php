@@ -125,7 +125,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
 	margin-right: 10px;
 	border-radius: 50%;
 	text-align: center;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV .class-name{
@@ -136,7 +136,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
 
 #modalINV h1,#modalINV h2,#modalINV h3{
 	margin-top:0;
-	color:#8860a7;
+	color:#2E8B57;
 
 }
 
@@ -150,15 +150,15 @@ if(!isset($_SERVER['HTTP_REFERER'])){
 	margin-right:15px;
 	padding-right:0;
 	color:white;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV th{			
-	background-color:#8860a7;
+	background-color:#2E8B57;
 	color:white;
 }
 #modalINV .std-name{
-	color:#8860a7;
+	color:#2E8B57;
 	font-size:16px;
 }
 #modalINV #h1{
@@ -169,23 +169,23 @@ display:none;
 @media print{
 
 #modalINV .logo{
-		background-color:#8860a7 !important;	
+		background-color:#2E8B57 !important;	
 	}
 
 #modalINV h1,#modalINV h2,#modalINV h3,#modalINV .std-name{
-		color:#8860a7 !important;	
+		color:#2E8B57 !important;	
 	}
 	
 	
 #modalINV .table-bordered th{
 			
 		color:white!important;
-		background-color:#8860a7 !important;		
+		background-color:#2E8B57 !important;		
 				
 	}
 #modalINV .class-email {
 		color:white!important;
-		background-color:#8860a7 !important;
+		background-color:#2E8B57 !important;
 		
 } 
 	
@@ -248,7 +248,7 @@ display:none;
     <section class="content">
     	<div class="row">
             <div class="col-md-12">
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Add Student</h3>
                 	</div><!-- /.box-header -->
@@ -256,7 +256,7 @@ display:none;
                 		<div class="box-body" >
                         	<div class="row">
                         		<div class="col-md-6">
-                                	<p class="alert-info ">Student Details </p>
+                                	<p class="alert-success ">Student Details </p>
                                     <div class="form-group" id="divIndexNumber">
                                         <div class="col-xs-3">
                                             <label for="exampleInputEmail1">Index Number</label>
@@ -344,7 +344,7 @@ display:none;
                                     </div>                
                             	</div>
                                 <div class="col-md-6">
-                                	<p class="alert-info "> Guardian Details </p>
+                                	<p class="alert-success "> Guardian Details </p>
                                     <div class="form-group" id="divGIndexNumber">
                                         <div class="col-xs-3">
                                             <label for="exampleInputEmail1">Index Number</label>
@@ -1043,7 +1043,7 @@ $("form").submit(function (e){
 		<div class="modal-dialog"><!--modal-dialog -->  
 			<div class="container col-lg-6 msk-modal-content"><!--modal-content --> 
       			<div class="row">
-          			<div class="panel panel-primary "><!--panel --> 
+          			<div class="panel panel-success "><!--panel --> 
             			<div class="panel-heading ">
               				<h3 class="panel-title" id="hname">Select Grade</h3>
             			</div>

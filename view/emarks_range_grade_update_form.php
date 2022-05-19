@@ -12,7 +12,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     	<div class="container modal-content1 "><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-3">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               
         					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
 <?php
@@ -64,7 +64,7 @@ if(mysqli_num_rows($result) > 0){
                                  </table>
                             </div>        
             			</div><!--/.panel-body-->
-            			<div class="panel-footer bg-blue-active">
+            			<div class="panel-footer bg-green-active">
                         
              			</div><!--/.panel-footer-->
       				</div><!--/.panel-->

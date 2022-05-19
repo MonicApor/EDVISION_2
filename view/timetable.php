@@ -115,7 +115,7 @@ body.modal-open-noscroll1
         	<!-- left column -->
             <div class="col-md-6">
             	<!-- general form elements -->
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Add Timetable</h3>
                 	</div><!-- /.box-header -->
@@ -141,7 +141,7 @@ if(mysqli_num_rows($result) > 0){
                     	</div>
                   	</div><!-- /.box-body -->
                   	<div class="box-footer">
-                    	<button type="button" class="btn btn-primary"  onClick="showTimeTable(this)">Submit</button><!--MSK-000108-->
+                    	<button type="button" class="btn btn-success"  onClick="showTimeTable(this)">Submit</button><!--MSK-000108-->
                   	</div>
             	</div><!-- /.box -->
         	</div>
@@ -881,7 +881,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="alert_from_update")){
 	<div class="modal msk-fade " id="deleteConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -891,7 +891,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="alert_from_update")){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000154 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>

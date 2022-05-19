@@ -43,7 +43,7 @@ $image=$row['image_name'];
           </a>
           <ul class="treeview-menu">
             <li><a href="parents_profile.php"><i class="fa fa-circle-o"></i> My Profile</a></li>
-            <li><a href="my_sons_profile.php"><i class="fa fa-circle-o"></i> My Son's Profiler</a></li>
+            <li><a href="my_sons_profile.php"><i class="fa fa-circle-o"></i> My Child's Profile</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -55,7 +55,7 @@ $image=$row['image_name'];
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="my_sons_teacher.php"><i class="fa fa-circle-o"></i> My Son's Teacher</a></li>
+            <li><a href="my_sons_teacher.php"><i class="fa fa-circle-o"></i> My Child's Teacher</a></li>
             <li><a href="all_teacher3.php"><i class="fa fa-circle-o"></i> All Teacher</a></li>
           </ul>
         </li>
@@ -68,7 +68,7 @@ $image=$row['image_name'];
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="my_sons_subject.php"><i class="fa fa-circle-o"></i> My Son's Subject</a></li>
+            <li><a href="my_sons_subject.php"><i class="fa fa-circle-o"></i> My Child's Subject</a></li>
             <li><a href="all_subject3.php"><i class="fa fa-circle-o"></i> All Subject</a></li>
           </ul>
         </li>
@@ -82,7 +82,7 @@ $image=$row['image_name'];
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="my_sons_timetable.php"><i class="fa fa-circle-o"></i> My Son's Timetable</a></li>
+            <li><a href="my_sons_timetable.php"><i class="fa fa-circle-o"></i> My Child's Timetable</a></li>
             <li><a href="all_timetable3.php"><i class="fa fa-circle-o"></i>All Timetable</a></li>
           </ul>
         </li>
@@ -95,15 +95,11 @@ $image=$row['image_name'];
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="my_sons_attendance.php"><i class="fa fa-circle-o"></i> My Son's Attendance</a></li>
-            <li><a href="my_sons_attendance_history.php"><i class="fa fa-circle-o"></i> My Son's Attendance History</a></li>
+            <li><a href="my_sons_attendance.php"><i class="fa fa-circle-o"></i> My Child's Attendance</a></li>
+            <li><a href="my_sons_attendance_history.php"><i class="fa fa-circle-o"></i> My Child's Attendance History</a></li>
           </ul>
         </li>
-         <li>
-          <a href="my_sons_payments.php">
-            <i class="fa fa-money"></i> <span>My Son's Payments</span>
-          </a>
-        </li>
+         
         <li class="treeview">
           <a href="#">
             <i class="fa fa-certificate"></i>
@@ -113,9 +109,9 @@ $image=$row['image_name'];
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="my_sons_exam_marks.php"><i class="fa fa-circle-o"></i> My Son's Exam Marks</a></li>
-            <li><a href="my_sons_exam_marks_history.php"><i class="fa fa-circle-o"></i> My Son's  Exam Marks History</a></li>
-            <li><a href="my_sons_exam_timetable.php"><i class="fa fa-circle-o"></i>My Son's Exam Timetable</a></li>
+            <li><a href="my_sons_exam_marks.php"><i class="fa fa-circle-o"></i> My Child's Exam Marks</a></li>
+            <li><a href="my_sons_exam_marks_history.php"><i class="fa fa-circle-o"></i> My Child's  Exam Marks History</a></li>
+            <li><a href="my_sons_exam_timetable.php"><i class="fa fa-circle-o"></i>My Child's Exam Timetable</a></li>
           </ul>
         </li>
       </ul>

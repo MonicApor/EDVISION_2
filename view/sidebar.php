@@ -90,11 +90,7 @@ $image=$row['image_name'];
             <li><a href="student_leave.php"><i class="fa fa-circle-o"></i> Leave Student</a></li>
           </ul>
         </li>
-        <li>
-          <a href="student_payment.php">
-            <i class="fa fa-money"></i> <span>Student Payment</span>
-          </a>
-        </li>
+        
          <li class="treeview">
           <a href="#">
             <i class="fa fa-calendar-check-o"></i>
@@ -124,25 +120,8 @@ $image=$row['image_name'];
             <li><a href="student_exam_marks_history.php"><i class="fa fa-circle-o"></i>Student Exam Marks History</a></li>
           </ul>
         </li>
-        <li>
-          <a href="petty_cash.php">
-            <i class="fa fa-yen"></i> <span>Petty Cash</span>
-          </a>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-facebook"></i>
-            <span>Friends</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-          	<li><a href="add_friends.php"><i class="fa fa-circle-o"></i> Add Friends</a></li>
-            <li><a href="my_friends.php"><i class="fa fa-circle-o"></i> My Friends</a>
-           
-          </ul>
-        </li>
+      
+        
         <li class="treeview">
           <a href="#">
             <i class="fa fa-calendar"></i>

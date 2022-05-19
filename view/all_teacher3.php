@@ -80,8 +80,7 @@ if(mysqli_num_rows($result) > 0){
 <!--MSK-00113 -->  
 <a href="#" onClick="showTeacher(this)" class="btn btn-primary btn-xs"  data-id="<?php echo $row["index_number"]; ?>">View Profile</a>
 
-<!--MSK-00146 --> 
-<a href="#" onClick="addSalary(this)" class="btn btn-success btn-xs"  data-id="<?php echo $row["index_number"]; ?>">Something</a>
+
                                     </td>
                                     
                                 </tr>

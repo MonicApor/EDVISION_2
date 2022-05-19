@@ -67,7 +67,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
         	<!-- left column -->
             <div class="col-md-5">
             	<!-- general form elements -->
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Add Attendance </h3>
                 	</div><!-- /.box-header -->
@@ -80,7 +80,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
                   		</div><!-- /.box-body -->
                   		<div class="box-footer">
                         	<input type="hidden" name="do" value="add_attendance">
-                    		<button type="submit" class="btn btn-primary" id="btnSubmit" >Submit</button>
+                    		<button type="submit" class="btn btn-success" id="btnSubmit" >Submit</button>
                   		</div>
                      </form>   
 				</div><!-- /.box -->

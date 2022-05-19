@@ -29,7 +29,7 @@ $email=$row['email'];
       		<div class="row">
         	<div class="col-md-12">
             	<div class="panel"><!--panel bg-maroon--> 
-                	<div class="panel-heading bg-aqua-active">	
+                	<div class="panel-heading bg-green-active">	
                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
                     	<h4 class="panel-title" id="hname"><?php echo $i_name; ?></h4>
                     </div>				

@@ -11,7 +11,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     	<div class="container  "><!--modal-content --> 
       		<div class="row ">	
            		<div class="col-md-6">
-            		<div class="panel panel-primary">
+            		<div class="panel panel-success">
         				<div class="panel-heading">               	
                             <button type="button" onClick="showModalGrade()" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button><!--MSK-000128-->
                             
@@ -52,10 +52,10 @@ while($row=mysqli_fetch_assoc($result)){
                         		</tbody>
                 			</table>
             			</div><!--/.modal body-->
-            			<div class="panel-footer bg-blue-active">
+            			<div class="panel-footer bg-green-active">
                         	<input type="hidden" id="index1" value="<?php echo $index; ?>" >
                         	<input type="hidden" id="grade1" value="<?php echo $id; ?>" >
-                    		<button type="button" class="btn btn-info " id="btnSubmit1" onClick="insertSubject(this)" style="width:100%;" data-id="<?php echo $id; ?>"><span class="glyphicon glyphicon-ok-sign"></span>Submit</button><!--MSK-000130-->
+                    		<button type="button" class="btn btn-success " id="btnSubmit1" onClick="insertSubject(this)" style="width:100%;" data-id="<?php echo $id; ?>"><span class="glyphicon glyphicon-ok-sign"></span>Submit</button><!--MSK-000130-->
              			</div>
       				</div><!--/.panel-->
          		</div><!--/.col-md-3 --> 

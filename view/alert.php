@@ -2,7 +2,7 @@
   	<div class="modal fade" id="insert_Success" tabindex="-1" role="dialog" aria-labelledby="insert_alert2" aria-hidden="true">
     	<div class="modal-dialog">    
         	<div class="modal-content">
-        		<div class="modal-header bg-primary">
+        		<div class="modal-header bg-success">
           			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           			<h4>Information...!</h4>
         		</div>
@@ -17,7 +17,7 @@
   	<div class="modal fade" id="update_Success" tabindex="-1" role="dialog" aria-labelledby="update_alert1" aria-hidden="true">
     	<div class="modal-dialog">    
       		<div class="modal-content">
-        		<div class="modal-header bg-primary">
+        		<div class="modal-header bg-success">
           			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           			<h4>Information...!</h4>
         		</div>
@@ -32,7 +32,7 @@
   	<div class="modal fade" id="delete_Success" tabindex="-1" role="dialog" aria-labelledby="insert_alert1" aria-hidden="true">
     	<div class="modal-dialog">    
       		<div class="modal-content">
-        		<div class="modal-header bg-primary">
+        		<div class="modal-header bg-success">
           			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           			<h4>Information...!</h4>
         		</div>
@@ -47,7 +47,7 @@
   	<div class="modal fade" id="leave_Success" tabindex="-1" role="dialog" aria-labelledby="insert_alert1" aria-hidden="true">
     	<div class="modal-dialog">    
       		<div class="modal-content">
-        		<div class="modal-header bg-primary">
+        		<div class="modal-header bg-success">
           			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           			<h4>Information...!</h4>
         		</div>
@@ -62,7 +62,7 @@
   	<div class="modal fade" id="approve_Success" tabindex="-1" role="dialog" aria-labelledby="insert_alert2" aria-hidden="true">
     	<div class="modal-dialog">    
         	<div class="modal-content">
-        		<div class="modal-header bg-primary">
+        		<div class="modal-header bg-success">
           			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           			<h4>Information...!</h4>
         		</div>

@@ -125,7 +125,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
 	margin-right: 10px;
 	border-radius: 50%;
 	text-align: center;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV .class-name{
@@ -136,7 +136,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
 
 #modalINV h1,#modalINV h2,#modalINV h3{
 	margin-top:0;
-	color:#8860a7;
+	color:#2E8B57;
 
 }
 
@@ -150,15 +150,15 @@ if(!isset($_SERVER['HTTP_REFERER'])){
 	margin-right:15px;
 	padding-right:0;
 	color:white;
-	background-color:#8860a7;
+	background-color:#2E8B57;
 }
 
 #modalINV th{			
-	background-color:#8860a7;
+	background-color:#2E8B57;
 	color:white;
 }
 #modalINV .std-name{
-	color:#8860a7;
+	color:#2E8B57;
 	font-size:16px;
 }
 #modalINV #h1{
@@ -169,23 +169,23 @@ display:none;
 @media print{
 
 #modalINV .logo{
-		background-color:#8860a7 !important;	
+		background-color:#2E8B57 !important;	
 	}
 
 #modalINV h1,#modalINV h2,#modalINV h3,#modalINV .std-name{
-		color:#8860a7 !important;	
+		color:#2E8B57 !important;	
 	}
 	
 	
 #modalINV .table-bordered th{
 			
 		color:white!important;
-		background-color:#8860a7 !important;		
+		background-color:#2E8B57 !important;		
 				
 	}
 #modalINV .class-email {
 		color:white!important;
-		background-color:#8860a7 !important;
+		background-color:#2E8B57 !important;
 		
 } 
 	
@@ -261,7 +261,7 @@ $row1=mysqli_fetch_assoc($result1);
     <section class="content">
     	<div class="row">
             <div class="col-md-12">
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Edit Student</h3>
                         <a href="all_student.php?do=showSTable&grade_id=<?php echo $grade_id; ?>" style="float:right" type="button" class="btn text-right btn-success asd" id="btnSubmit2"><span class="glyphicon glyphicon-arrow-left"></span> Back</a>
@@ -270,7 +270,7 @@ $row1=mysqli_fetch_assoc($result1);
                 		<div class="box-body" >
                         	<div class="row">
                         		<div class="col-md-6">
-                                	<p class="alert-warning ">Student Details </p>
+                                	<p class="alert-success ">Student Details </p>
                                      <div class="form-group" id="divFullName">
                                         <div class="col-xs-3">
                                             <label for="exampleInputEmail1">Full Name</label>
@@ -349,7 +349,7 @@ $row1=mysqli_fetch_assoc($result1);
                                     </div>                
                             	</div>
                                 <div class="col-md-6">
-                                	<p class="alert-warning "> Guardian Details </p>
+                                	<p class="alert-success "> Guardian Details </p>
                                      <div class="form-group" id="divGFullName">
                                         <div class="col-xs-3">
                                             <label for="exampleInputEmail1">Full Name</label>
@@ -434,7 +434,7 @@ $row1=mysqli_fetch_assoc($result1);
                             <input type="hidden" name="std_index" value="<?php echo $std_index; ?>">
                              <input type="hidden" name="grade_id" value="<?php echo $grade_id; ?>">
                              <input type="hidden" name="showPage" value="all_student">
-                    		<button style="width:150px;" type="submit" class="btn text-right btn-warning asd" id="btnSubmit">Update</button><br>
+                    		<button style="width:150px;" type="submit" class="btn text-right btn-success asd" id="btnSubmit">Update</button><br>
                              
 <?php
 /*

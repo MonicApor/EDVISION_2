@@ -395,7 +395,7 @@ display:none;
         	<!-- left column -->
             <div class="col-xs-6">
             	<!-- general form elements -->
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Select Grade</h3>
                 	</div><!-- /.box-header -->
@@ -422,7 +422,7 @@ if(mysqli_num_rows($result) > 0){
                     	</div>
                   	</div><!-- /.box-body -->
                   	<div class="box-footer">
-                    	<button type="button" class="btn btn-primary"  onClick="showStudentTable(this)">Submit</button><!--MSK-000108-->
+                    	<button type="button" class="btn btn-success"  onClick="showStudentTable(this)">Submit</button><!--MSK-000108-->
                   	</div>
               	</div><!-- /.box -->
             </div>
@@ -576,7 +576,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="showSTable")){
 	<div class="modal msk-fade " id="deleteConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -586,7 +586,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="showSTable")){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000132 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>
@@ -692,7 +692,7 @@ function Delete_alert(msg){
 	<div class="modal-dialog"><!--modal-dialog -->  
 		<div class="container col-lg-12 "><!--modal-content --> 
       		<div class="row">
-          		<div class="panel panel-info"><!--panel --> 
+          		<div class="panel panel-success"><!--panel --> 
             		<div class="panel-heading">
                     	<button type="button"  class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
               			<h3 class="panel-title" id="hname"></h3>
@@ -828,7 +828,7 @@ function showModal1(Viewform){
 		<div class="modal-dialog"><!--modal-dialog -->  
 			<div class="container col-lg-6 msk-modal-content"><!--modal-content --> 
       			<div class="row">
-          			<div class="panel panel-primary "><!--panel --> 
+          			<div class="panel panel-success "><!--panel --> 
             			<div class="panel-heading ">
               				<h3 class="panel-title">Select Grade</h3>
             			</div>
@@ -863,7 +863,7 @@ if(mysqli_num_rows($result) > 0){
 	<div class="modal msk-fade " id="upgradeConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" data-backdrop="static" data-keyboard="false">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -873,7 +873,7 @@ if(mysqli_num_rows($result) > 0){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes1" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000132 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>

@@ -84,7 +84,7 @@ body {
         	<!-- left column -->
             <div class="col-md-5">
             	<!-- general form elements -->
-              	<div class="box box-primary">
+              	<div class="box box-success">
                 	<div class="box-header with-border">
                   		<h3 class="box-title">Add Grade</h3>
                 	</div><!-- /.box-header -->
@@ -106,7 +106,7 @@ body {
                   		</div><!-- /.box-body -->
                   		<div class="box-footer">
                   			<input type="hidden" name="do" value="add_grade" />
-                    		<button type="submit" class="btn btn-primary" id="btnSubmit">Next</button>
+                    		<button type="submit" class="btn btn-success" id="btnSubmit">Next</button>
                   		</div>
                 	</form>
 				</div><!-- /.box -->
@@ -119,7 +119,7 @@ body {
             <div class="container modal-content1 "><!--modal-content --> 
                 <div class="row ">	
                     <div class="col-md-3">
-                        <div class="panel panel-primary">
+                        <div class="panel panel-success">
                             <div class="panel-heading">               
                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
                                 <h3 class="panel-title">Add eMarks Range & Grade</h3>
@@ -128,7 +128,7 @@ body {
                                 <div class="panel-body"> <!-- Start of modal body--> 
                                     <div class="form-group" id="divMarkRange1">
                                         <label for="" >Range & Grade</label>
-                                         <a href="#" onClick="addNewRow(this)" class="btn btn-success btn-xs pull-right"><span class="glyphicon glyphicon-plus"></span></a><!-- MSK-00094--> 
+                                         <a href="#" onClick="addNewRow(this)" class="btn btn-info btn-xs pull-right"><span class="glyphicon glyphicon-plus"></span></a><!-- MSK-00094--> 
                                          <a href="#" onClick="deleteRow(this)" class="btn btn-danger btn-xs pull-right" style="margin-right:2px;"><span class="glyphicon glyphicon-remove"></span></a><!-- MSK-00094-->
                                     </div>
                                      <div class="form-group" id="divMarkRange2">
@@ -142,11 +142,11 @@ body {
                                         </table>
                                     </div>        
                                 </div><!--/.modal body-->
-                                <div class="panel-footer bg-blue-active">
+                                <div class="panel-footer bg-green-active">
                                     <input type="hidden" name="current_page" value="" id="current_page"  />
                                     <input type="hidden" name="grade_id" value="" id="grade_id"  />
                                     <input type="hidden" name="do" value="add_emarks_range_grade"  />
-                                    <button type="submit" onClick="" class="btn btn-info btnS" id="btnSubmit1" style="width:100%;">Submit</button>
+                                    <button type="submit" onClick="" class="btn btn-success btnS" id="btnSubmit1" style="width:100%;">Submit</button>
                                 </div>
                             </form>       
                         </div><!--/.panel-->
@@ -634,7 +634,7 @@ if($cant_remove1 > 0 || $cant_remove2 > 0 || $cant_remove3 > 0 || $cant_remove4 
             	<div class="row ">	
            			<div class="col-md-6">
                 		<div class="panel">
-        					<div class="panel-heading bg-orange">              
+        					<div class="panel-heading bg-success">              
         						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
           						<h4 class="modal-title custom_align" id="Heading">Edit Grade</h4>
    							</div>
@@ -654,7 +654,7 @@ if($cant_remove1 > 0 || $cant_remove2 > 0 || $cant_remove3 > 0 || $cant_remove4 
                             </div><!--/.modal body-->
                             <div class="panel-footer bg-gray-light">
                                 <input type="hidden" name="id" id="id" value="">
-                                <button type="button" onClick="Updategrade(this)" id="btnSubmit1" class="btn btn-info" style="width: 100%;"><span class="glyphicon glyphicon-ok-sign"></span> Update</button>    
+                                <button type="button" onClick="Updategrade(this)" id="btnSubmit1" class="btn btn-success" style="width: 100%;"><span class="glyphicon glyphicon-ok-sign"></span> Update</button>    
                             </div><!--/.panel-footer--> 
             			</div><!--/.panel-->
             		</div><!--/.col-md-6-->
@@ -871,7 +871,7 @@ function Update_alert(msg){
 	<div class="modal msk-fade" id="deleteConfirm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   		<div class="modal-dialog">
     		<div class="modal-content">
-				<div class="modal-header bg-primary">
+				<div class="modal-header bg-success">
         			<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
         			<h4 class="modal-title" id="frm_title">Delete</h4>
       			</div>
@@ -880,7 +880,7 @@ function Update_alert(msg){
         		</div>
       			<div class="modal-footer">
 					<a href="#" style='margin-left:10px;' id="btnYes" class="deletebtn btn btn-danger col-sm-2 pull-right">Yes</a><!-- MSK-000125 -->
-        			<button type="button" class="btn btn-primary col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
+        			<button type="button" class="btn btn-success col-sm-2 pull-right" data-dismiss="modal" id="frm_cancel">No</button>
       			</div>
     		</div>
   		</div>
