@@ -74,9 +74,9 @@ body {
             <small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Subject</a></li>
-            <li><a href="#">All Subject</a></li>
+        	<li><a href="dashboard2.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="all_subject2.php">Subject</a></li>
+            <li><a href="my_subject2.php">All Subject</a></li>
         </ol>
 	</section>
  

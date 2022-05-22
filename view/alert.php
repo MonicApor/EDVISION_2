@@ -97,7 +97,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red;">Warnning!</strong> You didn't make any changes. <strong style="color:red;">:D</strong>
+        			<strong style="color:red;">Warning!</strong> You didn't make any changes. <strong style="color:red;">:D</strong>
         		</div>
       		</div>
     	</div>
@@ -112,7 +112,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Classroom is already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Classroom is already have in our Database.
         		</div>
 			</div>
 		</div>
@@ -127,7 +127,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Grade is already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Grade is already have in our Database.
         		</div>
 			</div>
 		</div>
@@ -142,7 +142,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Subject is already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Subject is already have in our Database.
         		</div>
 			</div>
 		</div>
@@ -157,7 +157,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Exam is already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Exam is already have in our Database.
         		</div>
 			</div>
 		</div>
@@ -172,7 +172,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Index Number already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Index Number already have in our Database.
         		</div>
       		</div>
     	</div>
@@ -187,7 +187,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Email Address already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Email Address already have in our Database.
         		</div>
       		</div>
     	</div>
@@ -202,7 +202,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Index Number and Email Address already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Index Number and Email Address already have in our Database.
         		</div>
       		</div>
     	</div>
@@ -217,7 +217,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Exam name already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Exam name already have in our Database.
         		</div>
       		</div>
     	</div>
@@ -232,7 +232,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> Your Attendance already have in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> Your Attendance already have in our Database.
         		</div>
       		</div>
     	</div>
@@ -248,7 +248,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> Duplicate Record.
+        			<strong style="color:red; font-size:14px">Warning!</strong> Duplicate Record.
         		</div>
       		</div>
     	</div>
@@ -263,7 +263,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> At this time there already have class, in that classroom. 
+        			<strong style="color:red; font-size:14px">Warning!</strong> At this time there already have class, in that classroom. 
         		</div>
       		</div>
     	</div>
@@ -278,7 +278,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> There haven't, default image upload folder.
+        			<strong style="color:red; font-size:14px">Warning!</strong> There haven't, default image upload folder.
         		</div>
       		</div>
     	</div>
@@ -293,7 +293,7 @@
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> This Index Number haven't in our Database.
+        			<strong style="color:red; font-size:14px">Warning!</strong> This Index Number haven't in our Database.
         		</div>
       		</div>
     	</div>

@@ -5,6 +5,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     exit;
 }
 ?>
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
+
 <?php
 include_once("../controller/config.php");
 for($i=0;$i<count(json_decode($_GET['id']));$i++){

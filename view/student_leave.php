@@ -225,8 +225,8 @@ display:none;
         	Leave Student
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Leave Student</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="student_leave.php">Leave Student</a></li>
         </ol>
 	</section>
     

@@ -70,7 +70,7 @@ while($row1=mysqli_fetch_assoc($result1)){
                                     </table>
                             	</div> 
             				</div><!--/.modal body-->
-            				<div class="panel-footer bg-blue-active">
+            				<div class="panel-footer bg-green-active">
                             	<input type="hidden" name="current_page" value="<?php echo $current_page; ?>"/>
                             	<input type="hidden" name="std_index" value="<?php echo $std_index; ?>"/>
                                 <input type="hidden" name="my_index" value="<?php echo $my_index; ?>"/>

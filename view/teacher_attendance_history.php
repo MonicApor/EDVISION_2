@@ -1,3 +1,4 @@
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <?php
 if(!isset($_SERVER['HTTP_REFERER'])){
     // redirect them to your desired location
@@ -203,9 +204,9 @@ body.modal-open-noscroll1
             <small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Exam</a></li>
-            <li><a href="#">Teacher Attendance History</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+			<li><a href="exam.php">Exam</a></li>
+            <li><a href="teacher_attendance_history.php">Teacher Attendance History</a></li>
         </ol>
 	</section>
 

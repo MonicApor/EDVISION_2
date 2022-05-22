@@ -55,8 +55,8 @@ body {
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Subject</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="subject.php">Subject</a></li>
         </ol>
 	</section>
 

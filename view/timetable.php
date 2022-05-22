@@ -104,8 +104,8 @@ body.modal-open-noscroll1
             <small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Timetabe</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="timetable.php">Timetabe</a></li>
         </ol>
 	</section>
 

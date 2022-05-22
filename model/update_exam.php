@@ -15,7 +15,8 @@ if(isset($_GET["do"])&&($_GET["do"]=="update_exam")){
 	$msg=0;//for alerts
 	$id2="";
 	$name2="";
-
+	
+	
 	if($name == $name1){
 		
 		if($id == $id1){
@@ -48,6 +49,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="update_exam")){
 		}
 	
 	}
+	
 
 $res=array($id2,$name2,$msg);
 echo json_encode($res);//MSK-000143-U-7

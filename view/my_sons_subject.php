@@ -74,8 +74,8 @@ body {
             <small>Routing</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Subject Routing</a></li>
+        	<li><a href="dashboard3.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="my_sons_subject.php">Subject Routing</a></li>
         </ol>
 	</section>
 

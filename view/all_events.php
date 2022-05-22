@@ -149,9 +149,9 @@ if(!isset($_SERVER['HTTP_REFERER'])){
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">My Events</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="all_events.php">Events</a></li>
+            <li><a href="my_events.php">My Events</a></li>
     	</ol>
 	</section>
 <?php 

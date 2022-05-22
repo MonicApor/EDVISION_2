@@ -500,8 +500,8 @@ display:none;
         	All Student
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">All Student</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="all_student.php">All Student</a></li>
         </ol>
 	</section>
 

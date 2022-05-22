@@ -130,9 +130,9 @@ margin:0;
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Attendance</a></li>
-            <li><a href="#">My Attendance History</a></li>
+        	<li><a href="dashboard1.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="my_attendance.php">Attendance</a></li>
+            <li><a href="my_attendance_history.php">My Attendance History</a></li>
     	</ol>
 	</section>
     

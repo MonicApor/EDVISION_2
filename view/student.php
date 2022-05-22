@@ -237,8 +237,8 @@ display:none;
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Student</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="student.php">Student</a></li>
         </ol>
 	</section>
 
@@ -305,7 +305,7 @@ display:none;
                                                     <label for="exampleInputEmail1">Phone</label>
                                                 </div>
                                                 <div class="col-xs-7" id="divPhone1">
-                                                	<input type="text" class="form-control" id="phone" name="phone" placeholder="111-111-1111">
+                                                	<input type="text" class="form-control" id="phone" name="phone" placeholder="1111-111-111">
                                                 </div> 
                                         	</div>  
                                             <div class="form-group" id="divDOB">
@@ -392,7 +392,7 @@ display:none;
                                                     <label for="exampleInputEmail1">Phone</label>
                                                 </div>
                                                 <div class="col-xs-7" id="divGPhone1">
-                                                	<input type="text" class="form-control" id="g_phone" name="g_phone" placeholder="111-111-1111" >
+                                                	<input type="text" class="form-control" id="g_phone" name="g_phone" placeholder="1111-111-111" >
                                                 </div> 
                                         	</div>
                                             <div class="form-group" id="divGDOB">
@@ -569,7 +569,7 @@ $("form").submit(function (e){
 	var g_phone = $('#g_phone').val();
 	
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-	var telformat = /\d{3}[\-]\d{3}[\-]\d{4}$/;
+	var telformat = /\d{4}[\-]\d{3}[\-]\d{3}$/;
 	
 	if(index_number == ''){
 		//MSK-00102-index_number 

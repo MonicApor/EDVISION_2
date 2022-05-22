@@ -42,9 +42,9 @@ if(!isset($_SERVER['HTTP_REFERER'])){
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Teacher</a></li>
-            <li><a href="#">My Teacher</a></li>
+        	<li><a href="dashboard1.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="all_teacher1.php">Teacher</a></li>
+            <li><a href="my_teacher.php">My Teacher</a></li>
     	</ol>
 	</section>
     

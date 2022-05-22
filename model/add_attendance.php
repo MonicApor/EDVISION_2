@@ -12,16 +12,17 @@ if(isset($_POST["do"])&&($_POST["do"]=="add_attendance")){
 	$outtime="";
 	$alert=0;
 	
+	date_default_timezone_set('Asia/Manila');
 	$current_month=date('F');
 	$current_year=date('Y');
 	$current_date=date("Y-m-d");
 	$current_day=date("l");
-	$current_time=date("h:i:s");
+	$current_time=date("H:i:s");
 	$day_no=date("d");
 	
 	$sql="SELECT * FROM student where index_number='$index_number'";	
 	$result=mysqli_query($conn,$sql);
-	
+
 	if(mysqli_num_rows($result) > 0) {//first if
 		$user_type = "Student";
 		
@@ -84,9 +85,7 @@ if(isset($_POST["do"])&&($_POST["do"]=="add_attendance")){
 				
 			}
 						
-		}
-		
-		
+		}	
 	}else{//end of first if
 		$sql1="SELECT * FROM teacher where index_number='$index_number'";	
 		$result1=mysqli_query($conn,$sql1);	

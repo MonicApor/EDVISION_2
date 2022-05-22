@@ -56,8 +56,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Add Attendance</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="add_attendance.php">Add Attendance</a></li>
     	</ol>
 	</section>
 
@@ -215,8 +215,6 @@ $index=$_GET["index"];
 		";
 	
 	}
-	
-	
 }
 
 

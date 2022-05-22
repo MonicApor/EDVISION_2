@@ -79,8 +79,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
         	Exam
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Exam</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="exam.php">Exam</a></li>
         </ol>
 	</section>
     
@@ -312,7 +312,7 @@ if(isset($_GET["do"])&&($_GET["do"]=="alert_from_insert")){
                             </div><!--/.modal body-->
                             <div class="panel-footer bg-gray-light">
                                 <input type="hidden" id="id" name="id" value="" >
-                                <button type="button" onClick="UpdateExam(this)" id="btnSubmit1" class="btn btn-success" style="width: 100%;"><span class="glyphicon glyphicon-ok-sign"></span> Update</button>         
+                                <button type="button" onClick="UpdateExam(this)" id="btnSubmit1" class="btn btn-success" style="width: 100%;"><span class="glyphicon glyphicon-ok-sign"></span>Update</button>         
         	  				</div><!--/.panel-footer--> 
             			</div><!--/.panel-->
             		</div><!--/.col-md-6-->

@@ -81,8 +81,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
             <small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Teacher</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="teacher.php">Teacher</a></li>
          </ol>
      </section>
 
@@ -148,7 +148,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
                                     <label>Phone Number </label>
                                 </div>
                                 <div class="col-xs-4" id="divPhone1">
-                                    <input type="tel" class="form-control" placeholder="123-456-7890" name="phone" id="phone" autocomplete="off">
+                                    <input type="tel" class="form-control" placeholder="1234-456-789" name="phone" id="phone" autocomplete="off">
                                 </div>
                             </div>
                             <div class="form-group tt2 " id="divEmail">
@@ -233,7 +233,7 @@ $("#form1").submit(function (e) {
 	var address = $('#address').val();
 
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;	
-	var telformat = /\d{3}[\-]\d{3}[\-]\d{4}$/;
+	var telformat = /\d{4}[\-]\d{3}[\-]\d{3}$/;
 	var imageNoError= 0;
 	
 	if(index_number == ''){

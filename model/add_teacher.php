@@ -21,6 +21,11 @@ if(isset($_POST["do"])&&($_POST["do"]=="add_teacher")){
 	$max = 31457280;
 	$extention = strtolower(substr($name, strpos($name, ".")+ 1));
 	$filename = date("Ymjhis");
+
+	$sql0="SELECT * FROM student where index_number='$index_number'";	
+	$result0=mysqli_query($conn,$sql0);
+	$row0=mysqli_fetch_assoc($result0);
+	$index_number0=$row0['index_number'];
 	
 	$sql1="SELECT * FROM teacher where index_number='$index_number'";	
 	$result1=mysqli_query($conn,$sql1);
@@ -49,6 +54,11 @@ if(isset($_POST["do"])&&($_POST["do"]=="add_teacher")){
 		//MSK-000143-3 Only email address duplicates.
 		$msg+=5;
 		
+	}else if($index_number == $index_number0 ){
+		
+	//MSK-000143-3 Only email address duplicates.
+	$msg+=1;
+	
 	}else{
 		//MSK-000143-4
 	 	if(($extention == "jpg" || $extention == "jpeg" || $extention == "png") && $size < $max){//This line is not needed, bcz we checked it before.    																					

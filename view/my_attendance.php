@@ -1,3 +1,4 @@
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <?php
 if(!isset($_SERVER['HTTP_REFERER'])){
     // redirect them to your desired location
@@ -132,9 +133,9 @@ margin:0;
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Attendance</a></li>
-            <li><a href="#">My Attendance</a></li>
+        	<li><a href="dashboard1.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="my_attendance.php">Attendance</a></li>
+            <li><a href="my_attendance.php">My Attendance</a></li>
     	</ol>
 	</section>
  <script>

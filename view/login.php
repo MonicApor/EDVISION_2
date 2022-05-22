@@ -137,7 +137,7 @@ $("form").submit(function (e) {
           			<h4>Information...!</h4>
         		</div>
         		<div class="modal-body bgColorWhite">
-        			<strong style="color:red; font-size:14px">Warnning!</strong> Email or Password is Incorrect.
+        			<strong style="color:red; font-size:14px">Warning!</strong> Email or Password is Incorrect.
         		</div>
 			</div>
 		</div>

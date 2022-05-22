@@ -72,8 +72,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
             <small>Routing</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Subject Routing</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="subject_routing.php">Subject Routing</a></li>
         </ol>
 	</section>
 
@@ -144,10 +144,10 @@ if(mysqli_num_rows($result1) > 0) {
                                             	
 }
 
-if($current_date_number > 5){
-	//disabled
-	echo "<script>$('.cant-edit').addClass('disabled');</script>";
-}
+// if($current_date_number > 5){
+// 	//disabled
+// 	echo "<script>$('.cant-edit').addClass('disabled');</script>";
+// }
 
 ?>                                    
 

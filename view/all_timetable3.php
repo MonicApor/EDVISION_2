@@ -34,9 +34,9 @@ if(!isset($_SERVER['HTTP_REFERER'])){
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Timetable</a></li>
-            <li><a href="#">All Timetable</a></li>
+        	<li><a href="dashboard3.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="all_timetable3.php">Timetable</a></li>
+            <li><a href="all_timetable3.php">All Timetable</a></li>
     	</ol>
 	</section>
     

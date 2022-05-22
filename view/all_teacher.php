@@ -490,9 +490,9 @@ display:none;
             <small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#"><i class="fa fa-teacher"></i> Teacher</a></li>
-            <li><a href="#"> All Teacher</a></li>
+        	<li><a href="dashboard.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="teacher.php"><i class="fa fa-teacher"></i> Teacher</a></li>
+            <li><a href="all_teacher.php"> All Teacher</a></li>
          </ol>
      </section>
 
@@ -766,7 +766,7 @@ function showModal(Updateform){
 				document.getElementById("output1").src ='../'+myArray1[7];
 				document.getElementById("c_page").value =currentPage;
 				
-				var telformat = /\d{3}[\-]\d{3}[\-]\d{4}$/;
+				var telformat = /\d{4}[\-]\d{3}[\-]\d{3}$/;
 				var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 				
 				$("#phone1" ).keydown(function(){//MSK-00119-phone

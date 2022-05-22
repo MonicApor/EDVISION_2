@@ -95,9 +95,9 @@ body.modal-open-noscroll1
             <small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Exam</a></li>
-            <li><a href="#">My Exam Marks</a></li>
+        	<li><a href="dashboard1.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="my_exam_marks.php">Exam</a></li>
+            <li><a href="my_exam_marks.php">My Exam Marks</a></li>
         </ol>
 	</section>
 

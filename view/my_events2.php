@@ -139,9 +139,9 @@ margin:0;
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">My Events</a></li>
+        	<li><a href="dashboard2.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="all_events2.php">Events</a></li>
+            <li><a href="my_events2.php">My Events</a></li>
     	</ol>
 	</section>
 <?php 

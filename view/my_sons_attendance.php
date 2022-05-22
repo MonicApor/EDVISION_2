@@ -132,9 +132,9 @@ margin:0;
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Attendance</a></li>
-            <li><a href="#">My Son's Attendance</a></li>
+        	<li><a href="dashboard3.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="my_sons_attendance.php">Attendance</a></li>
+            <li><a href="my_sons_attendance.php">My Son's Attendance</a></li>
     	</ol>
 	</section>
  <script>

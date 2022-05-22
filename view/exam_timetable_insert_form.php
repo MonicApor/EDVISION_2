@@ -77,7 +77,7 @@ if(mysqli_num_rows($result) > 0){
         							<input type="text" class="form-control" id="end_time" name="end_time"  placeholder="Enter end time" autocomplete="off"/>
         						</div>  
             				</div><!--/.modal body-->
-            				<div class="panel-footer bg-green-active">
+            				<div class="panel-footer bg-green -active">
                             	<input type="hidden" id="grade_id" name="grade_id" value="<?php echo $grade_id; ?>"  />
                                 <input type="hidden" id="exam_id" name="exam_id" value="<?php echo $exam_id; ?>"  />
             					<input type="hidden" name="do" value="add_exam_timetable"  />

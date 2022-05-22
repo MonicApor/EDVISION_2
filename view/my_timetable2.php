@@ -5,6 +5,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     exit;
 }
 ?>
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
+
 <?php include_once('head.php'); ?>
 <?php include_once('header_teacher.php'); ?>
 <?php include_once('sidebar2.php'); ?>
@@ -96,9 +98,9 @@ body.modal-open-noscroll1
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">Timetable</a></li>
-            <li><a href="#">My Timetable</a></li>
+        	<li><a href="dashboard2.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="my_timetable2.php">Timetable</a></li>
+            <li><a href="my_timetable2.php">My Timetable</a></li>
     	</ol>
 	</section>
     

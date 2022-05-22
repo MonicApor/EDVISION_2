@@ -33,8 +33,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
         	<small>Preview</small>
         </h1>
         <ol class="breadcrumb">
-        	<li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li><a href="#">My Profile</a></li>
+        	<li><a href="dashboard2.php"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li><a href="teacher_profile2.php">My Profile</a></li>
     	</ol>
 	</section>
     
@@ -191,7 +191,7 @@ function editMyProfile(my_index){
 								var password = document.getElementById("password1").value;
 								
 								var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;	
-								var telformat = /\d{3}[\-]\d{3}[\-]\d{4}$/;
+								var telformat = /\d{4}[\-]\d{3}[\-]\d{3}$/;
 								
 								if(full_name == ''){
 									//MSK-00102-full_name 

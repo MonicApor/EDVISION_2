@@ -1,3 +1,4 @@
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <?php
 if(!isset($_SERVER['HTTP_REFERER'])){
     // redirect them to your desired location

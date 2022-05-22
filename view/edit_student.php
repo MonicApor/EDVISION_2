@@ -552,7 +552,7 @@ $("form").submit(function (e){
 	var g_phone = $('#g_phone').val();
 		
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-	var telformat = /\d{3}[\-]\d{3}[\-]\d{4}$/;
+	var telformat = /\d{4}[\-]\d{3}[\-]\d{3}$/;
 	
 	if(index_number == ''){
 		//MSK-00102-index_number 

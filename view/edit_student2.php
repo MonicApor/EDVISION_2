@@ -311,7 +311,7 @@ $row1=mysqli_fetch_assoc($result1);
                                                     <label for="exampleInputEmail1">Phone</label>
                                                 </div>
                                                 <div class="col-xs-7" id="divPhone1">
-                                                	<input type="text" class="form-control" id="phone" name="phone" data-inputmask='"mask": "(999) 999-9999"' data-mask value="<?php echo $row['phone']; ?>">
+                                                	<input type="text" class="form-control" id="phone" name="phone"  data-mask value="<?php echo $row['phone']; ?>">
                                                 </div> 
                                         	</div>  
                                             <div class="form-group" >
@@ -389,7 +389,7 @@ $row1=mysqli_fetch_assoc($result1);
                                                     <label for="exampleInputEmail1">Phone</label>
                                                 </div>
                                                 <div class="col-xs-7" id="divGPhone1">
-                                                	<input type="text" class="form-control" id="g_phone" name="g_phone" data-inputmask='"mask": "(999) 999-9999"' data-mask value="<?php echo $row1['phone']; ?>" >
+                                                	<input type="text" class="form-control" id="g_phone" name="g_phone"  data-mask value="<?php echo $row1['phone']; ?>" >
                                                 </div> 
                                         	</div>
                                             <div class="form-group" >
@@ -552,7 +552,7 @@ $("form").submit(function (e){
 	var g_phone = $('#g_phone').val();
 		
 	var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-	//var telformat = /\d{3}[\-]\d{3}[\-]\d{4}$/;
+	//var telformat = /\d{4}[\-]\d{3}[\-]\d{3}$/;
 	
 	if(index_number == ''){
 		//MSK-00102-index_number 
