@@ -102,6 +102,21 @@
       		</div>
     	</div>
 	</div><!--/.Modal-->
+
+	<!--You didn't make any changes.:D -->
+	<div class="modal fade" id="update_error2" tabindex="-1" role="dialog" aria-labelledby="update_alert1" aria-hidden="true">
+    	<div class="modal-dialog">    
+      		<div class="modal-content">
+        		<div class="modal-header bg-success">
+          			<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+          			<h4>Information...!</h4>
+        		</div>
+        		<div class="modal-body bgColorWhite">
+        			<strong style="color:red;">Success!</strong> Successfully updated.Please refresh! 
+        		</div>
+      		</div>
+    	</div>
+	</div><!--/.Modal-->
      
 	<!--Warnning! - Classroom is Duplicated-->
 	<div class="modal fade" id="classroom_Duplicated" tabindex="-1" role="dialog" aria-labelledby="insert_alert1" aria-hidden="true">

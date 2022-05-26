@@ -618,7 +618,7 @@ function Update_alert(msg){
 	
 	if(msg==3){
 		
-    	var myModal = $('#update_error1');
+    	var myModal = $('#update_error2');
 		myModal.modal('show');
 		
     	clearTimeout(myModal.data('hideInterval'));

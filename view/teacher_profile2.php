@@ -5,6 +5,8 @@ if(!isset($_SERVER['HTTP_REFERER'])){
     exit;
 }
 ?>
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
+
 <?php include_once('head.php'); ?>
 <?php include_once('header_teacher.php'); ?>
 <?php include_once('sidebar2.php'); ?>

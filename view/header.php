@@ -1,5 +1,5 @@
 <?php session_start(); ?>
-
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
 <body class="hold-transition skin-blue sidebar-mini" >
 <div class="wrapper">
   <header class="main-header" >
