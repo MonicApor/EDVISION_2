@@ -7,21 +7,35 @@ Abstract
   Full feature list
   
 Multi Login
+
 Student Management.
+
 Teacher Management.
+
 Attendance Management
+
 Timetable Management
+
 Exam Management
+
 Event Management
+
 Notification Management
+
 Classroom Management
+
 Grade Management
+
 Subject Management
+
 Invoice Management
 
 Created by:
 
 Apor,Monica
+
 Florida,Mychaela
+
 Mercado,Gian
+
 Regacho,Lord
