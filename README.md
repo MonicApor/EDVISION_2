@@ -1,32 +1,12 @@
-# std1
+Abstract
+  Edvision is a school management system that seeks to tackle this problem by making enrolment easier and more systematic, as well as automatically processing everything that needs to be computed. The programmers devised a system to aid teachers and students with their work. This technology also does automated sectioning and filters student data. Students are identified by their student profile, which is kept on file at the registrar's office. Students would have a more user-friendly experience with this system, making their processes easier. Faculty members would gain the most because the system would relieve a significant portion of each teacher's workload. Because a school management system will help more people at Paknaan Elementary School, the developers could anticipate fewer employees being burnt out at work.
 
-Requirements
-PHP 5.5
-MYSQL 4.6
-Text Editor Software
-Instructions
-Create new database on the PHPMyAdmin and give any name. Then import the std_db.sql.
-Upload std1 folder to the your root folder.
-Edit this file.  (controller/config.php)
-$servername = "localhost";
-$username   = "root";
-$password   = "";
-$dbname     = "std_db";
-Give your server user name, password and database name.
+Created by: 
 
-Login Access Information
-Admin
-user name:- admin@gmail.com
-password:- 12345
-Teacher
-user name:- t1@gmail.com, t2@gmail.com, t3@gmail.com
-password:- 12345
-Student
-user name:- std1@gmail.com, std2@gmail.com, std3@gmail.com
-password:- 12345
-Parents
-user name:- dad1@gmail.com, dad2@gmail.com, dad3@gmail.com
-password:- 12345
+Apor,Monica
+Florida,Mychaela
+Mercado,Gian
+Regacho,Lord
 
 
 Features:
@@ -35,15 +15,10 @@ Multi Login
 Student Management.
 Teacher Management.
 Attendance Management
-Salary Management
-Payment Management
 Timetable Management
 Exam Management
-Petty Cash Management
 Event Management
 Notification Management
-Online Chat
 Classroom Management
 Grade Management
 Subject Management
-Invoice Management
